@@ -12,21 +12,23 @@
             height: 100vh;
         }
         body {
+            /*O background-cover ficou de fora do shorhands*/
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: repeat-y; 
-            background-attachment: scroll;
-            background-position: right bottom;
-            background-size: cover;
-            
-            /* background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center; */
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;  
+
+            /*background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center;*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 10px;
+            text-align: justify;
         }
     </style>
 </head>
