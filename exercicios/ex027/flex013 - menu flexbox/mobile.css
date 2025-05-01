@@ -1,13 +1,19 @@
 @charset "UTF-8";
 
+body {
+    background-color: rgba(7, 64, 236, 0.453);
+}
+
 header, header > nav {
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 }
 
 header > h1 {
-    flex-basis: 50px;
+    flex-basis: auto;
+    
 }
 
 header > nav > a {
     width: 90vw;
+    margin: 3px;
 }
